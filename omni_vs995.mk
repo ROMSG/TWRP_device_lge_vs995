@@ -12,6 +12,8 @@ PRODUCT_PACKAGES += \
 	charger
 
 ## Device identifier. This must come after all inclusions
+TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2560
 PRODUCT_DEVICE := vs995
 PRODUCT_MODEL := LG-VS995
 PRODUCT_NAME := omni_vs995

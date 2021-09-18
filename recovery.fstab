@@ -2,8 +2,6 @@
 /recovery	emmc	/dev/block/bootdevice/by-name/recovery	flags=backup=1
 /system		ext4	/dev/block/bootdevice/by-name/system
 /system_image	emmc	/dev/block/bootdevice/by-name/system
-/vendor		ext4	/dev/block/bootdevice/by-name/vendor	flags=removable;backup=1;wipeingui
-/vendor_image	emmc	/dev/block/bootdevice/by-name/vendor	flags=removable;backup=0;flashimg
 /data		ext4	/dev/block/bootdevice/by-name/userdata	flags=encryptable=/dev/block/bootdevice/by-name/encrypt
 /data_image	emmc	/dev/block/bootdevice/by-name/userdata	flags=backup=1;display="Beta:Data Image w/ storage";
 /cache		ext4	/dev/block/bootdevice/by-name/cache
